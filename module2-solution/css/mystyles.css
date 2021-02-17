@@ -1,7 +1,83 @@
+*, html {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
 body {
 	background-color: linen;
 }
 
-div {
-	color: red;
+#name {
+	font-size: %5;
+	text-align: center;
 }
+div.topbar {
+	background-color: #83B7B3;
+	height: 55px;
+}
+.topbar a {
+	text-decoration: none;
+	border: 2px solid black;
+	margin-right: 10px;
+	margin-left: 5px;
+	
+}
+a:hover {
+	background-color: #2acaea;
+}
+.sbar {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  border: none;
+  font-size: 17px;
+  width: 15%;
+  height: 20px;
+}
+
+.url {
+	padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    border: none;
+    font-size: 17px;
+    width: 52%;
+    height: 20px;
+
+}
+
+.content #header {
+	margin-top: 10px;
+	text-align: center;
+}
+
+.menuBox {
+	float: left;
+	
+	border: 2px solid black;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-top: 50px; 
+	width: 32%;
+    height: auto;
+    overflow: auto;
+    overflow-x: hidden;
+}
+.menuName{
+	position: relative;
+	top: 0px;
+	left: 0px;
+	float: right;
+	border: 2px solid black;
+	margin-top: -2px;
+	margin-right: -2px;
+
+}
+.menuContent {
+	clear:both;
+	padding: 10px;
+}
+
+
+
